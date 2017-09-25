@@ -1,0 +1,2 @@
+model_checkpoint_path: "lr=0.001_nl=3_bs=80.ckpt"
+all_model_checkpoint_paths: "lr=0.001_nl=3_bs=80.ckpt"
