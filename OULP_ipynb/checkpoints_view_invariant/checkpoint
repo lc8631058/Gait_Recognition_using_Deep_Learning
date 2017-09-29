@@ -1,2 +1,2 @@
-model_checkpoint_path: "Au=2_lr=0.001_nl=3_bs=80.ckpt"
-all_model_checkpoint_paths: "Au=2_lr=0.001_nl=3_bs=80.ckpt"
+model_checkpoint_path: "Au=3_lr=0.001_nl=2_bs=80_nl=2.ckpt"
+all_model_checkpoint_paths: "Au=3_lr=0.001_nl=2_bs=80_nl=2.ckpt"
