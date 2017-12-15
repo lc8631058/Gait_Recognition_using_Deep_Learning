@@ -1,6 +1,6 @@
 # Project Title
 
-One Paragraph of project description goes here
+Gait recognition from incomplete gait-cycle using convolutional neural networks
 
 ## Getting Started
 
@@ -8,80 +8,46 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+What things you need to install the software
 
 ```
-Give examples
+install anaconda on your computer
 ```
 
 ### Installing
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
-
+For windows:
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+open cmd
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+For mac os/ linux:
 ```
-Give an example
+open terminal
 ```
 
-### And coding style tests
+cd to the path that the `tensorflow.yml` file exist
 
-Explain what these tests test and why
-
+#For other person to use the environment, first use this to activate the tensorflow.yml:
 ```
-Give an example
+conda env create -f tensorflow.yml
 ```
 
-## Deployment
+# After activation, use this to open this enviorment every time before you open jupyter notebook 
+```
+for windows: activate tensorflow
+for linux: source activate tensorflow
+```
 
-Add additional notes about how to deploy this on a live system
+# then open jupyter notebook using this:
+```
+jupyter notebook
+```
 
-## Built With
+### Test model
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+In `checkpoints_view_invariant` saved all trained models, if you want to test with these models just open any ITCNet.ipynb file, there is a `Test Model` section in the end of it. Because the data is too big, I can't upload them to dropbox. The function `save_decoded` could save the predicted result to any path. The function `get_batches` could split the test data into batches, so you can input any data you want to test to `get_batches`. 
 
-## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
