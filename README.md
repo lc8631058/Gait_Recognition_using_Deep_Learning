@@ -2,24 +2,13 @@
 
 ---
 
-**Vision based Vehicle Detection and Tracking using Machine Learning and HOG**
-
-The goals / steps of this project are the following:
-
-* Perform a Histogram of Oriented Gradients (HOG) feature extraction on a labeled training set of images and train a classifier Linear SVM classifier
-* Optionally, apply a color transform and append binned color features, as well as histograms of color, to the HOG feature vector, to compare which kind of combination could lead to the best result
-* Note: for those first two steps don't forget to normalize the features and randomize a selection for training and testing.
-* Implement a sliding-window technique and use the trained classifier to search for vehicles in images.
-* Run the pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
-* Estimate a bounding box for vehicles detected.
-
 [//]: # (Image References)
 [image1]: ./example/gait_recognition.png
 [image2]: ./example/problem-illustration.jpg
 [image3]: ./example/problem-illustration2.jpg
 [image4]: ./example/GEI_generation.png
 [image5]: ./example/incom_GEI_generation.jpg
-[image6]: ./example/incom_GEI_generation.jpg
+[image6]: ./example/train_strategy.jpg
 
 # Project Title
 
@@ -48,6 +37,12 @@ Gait Energy Image (GEI) is one kind of gait featur representation, it has been p
 We want to build a network, which can transform different kind of incomplete GEI, whether it's composed of 1 frames or 10 frames of Gait silhouettes or different start frame, direct to complete GEI, whcih has almost one kind of shape for each subject:
 
 ![alt text][image5]
+
+### Train strategy
+
+As you can see from this figure, different incomplete GEIs composed of differen number of frames of start frames has various shapes, standing or walking, so it's hard to directly transform them to complete GEI, so we first train many network to achieve a small range transformation, we call it ITCNet, which means Incomplete to Complete Transformation Network, GC means gait cycle, 1/10 GC meams by 1/10 gait cycle composed GEI： 
+
+![alt text][image6]
 
 ## Getting Started
 
