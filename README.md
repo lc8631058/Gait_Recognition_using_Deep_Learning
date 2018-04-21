@@ -16,8 +16,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 [image1]: ./example/gait_recognition.png
 [image2]: ./example/problem-illustration.jpg
-[image2]: ./example/problem-illustration2.jpg
-
+[image3]: ./example/problem-illustration2.jpg
+[image4]: ./example/GEI_generation.png
 
 # Project Title
 
@@ -34,6 +34,12 @@ The Gait Energy Image (GEI) could reflect specific individual’s gait features,
 In these cases, only a few frames’ gait silhouettes could be extracted to generate the in- complete GEI, which leads to an extremely lower gait recognition rate. This case is not a special case, but can be seen everywhere in railway station, airport and street:
 
 ![alt text][image3]
+
+### GEI
+
+Gait Energy Image (GEI) is one kind of gait featur representation, it has been proven to be one of the most simple gait representation and has the best recognition ability:
+
+![alt text][image4]
 
 ## Getting Started
 
