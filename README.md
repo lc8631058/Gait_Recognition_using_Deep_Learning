@@ -9,6 +9,8 @@
 [image4]: ./example/GEI_generation.png
 [image5]: ./example/incom_GEI_generation.jpg
 [image6]: ./example/train_strategy.jpg
+[image7]: ./example/End2End_ITCNet.npg
+[image8]: ./example/workflow.npg
 
 # Project Title
 
@@ -16,7 +18,7 @@ Gait recognition from incomplete gait-cycle using convolutional neural networks
 
 ![alt text][image1]
 
-### Problem Formulation 
+## Problem Formulation 
 
 The Gait Energy Image (GEI) could reflect specific individual’s gait features, using GEI to represent human’s gait features has been a common method for gait recognition. But in some circumstances, the GEI of complete gait cycle is not available, e.g., when the person is walking through a multi-crowd environment or behind some shelters:
 
@@ -26,23 +28,35 @@ In these cases, only a few frames’ gait silhouettes could be extracted to gene
 
 ![alt text][image3]
 
-### GEI
+## GEI
 
 Gait Energy Image (GEI) is one kind of gait featur representation, it has been proven to be one of the most simple gait representation and has the best recognition ability:
 
 ![alt text][image4]
 
-### Generation of different types of incomplete GEIs
+## Generation of different types of incomplete GEIs
 
 We want to build a network, which can transform different kind of incomplete GEI, whether it's composed of 1 frames or 10 frames of Gait silhouettes or different start frame, direct to complete GEI, whcih has almost one kind of shape for each subject:
 
 ![alt text][image5]
 
-### Train strategy
+## Train strategy
 
 As you can see from this figure, different incomplete GEIs composed of differen number of frames of start frames has various shapes, standing or walking, so it's hard to directly transform them to complete GEI, so we first train many network to achieve a small range transformation, we call it ITCNet, which means Incomplete to Complete Transformation Network, GC means gait cycle, 1/10 GC meams by 1/10 gait cycle composed GEI： 
 
 ![alt text][image6]
+
+## Network Structure
+
+Here is the final structure of ITCNet, for more details please refer to my paper “Person Identification form Partial Gait Cycle Using Fully Convolutional Neural Network”, but it still been processed these days by NeuroComputing periodical:
+
+![alt text][image7]
+
+## Workflow
+
+Here is the total workflow of my master thesis:
+
+![alt text][image8]
 
 ## Getting Started
 
