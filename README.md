@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 * Estimate a bounding box for vehicles detected.
 
 [//]: # (Image References)
-[image1]: ./example/_recognition.png
+[image1]: ./example/gait_recognition.png
 
 # Project Title
 
