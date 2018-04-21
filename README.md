@@ -1,4 +1,4 @@
-[imgae1]: ./example/gait recognition.png
+[image1]: ./example/gait recognition.png
 
 # Project Title
 
