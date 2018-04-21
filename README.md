@@ -1,5 +1,7 @@
+---
 [//]: # (Image References)
 [image1]: ./example/gait recognition.png
+---
 
 # Project Title
 
