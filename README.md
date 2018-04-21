@@ -9,8 +9,8 @@
 [image4]: ./example/GEI_generation.png
 [image5]: ./example/incom_GEI_generation.jpg
 [image6]: ./example/train_strategy.jpg
-[image7]: ./example/End2End_ITCNet.npg
-[image8]: ./example/workflow.npg
+[image7]: ./example/End2End_ITCNet.png
+[image8]: ./example/workflow.png
 
 # Project Title
 
