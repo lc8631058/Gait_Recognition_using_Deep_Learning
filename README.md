@@ -1,6 +1,10 @@
+[imgae1]: ./example/gait recognition.png
+
 # Project Title
 
 Gait recognition from incomplete gait-cycle using convolutional neural networks
+
+![alt text][image1]
 
 ## Getting Started
 
