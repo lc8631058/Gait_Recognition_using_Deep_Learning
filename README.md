@@ -18,6 +18,7 @@ The goals / steps of this project are the following:
 [image2]: ./example/problem-illustration.jpg
 [image3]: ./example/problem-illustration2.jpg
 [image4]: ./example/GEI_generation.png
+[image5]: ./example/incom_GEI_generation.png
 
 # Project Title
 
@@ -40,6 +41,12 @@ In these cases, only a few frames’ gait silhouettes could be extracted to gene
 Gait Energy Image (GEI) is one kind of gait featur representation, it has been proven to be one of the most simple gait representation and has the best recognition ability:
 
 ![alt text][image4]
+
+### Generation of different types of incomplete GEIs
+
+We want to build a network, which can transform different kind of incomplete GEI, whether it's composed of 1 frames or 10 frames of Gait silhouettes or different start frame, direct to complete GEI, whcih has almost one kind of shape for each subject:
+
+![alt text][image5]
 
 ## Getting Started
 
