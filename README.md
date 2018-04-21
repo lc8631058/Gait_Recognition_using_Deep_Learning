@@ -15,8 +15,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 [image1]: ./example/gait_recognition.png
-[image2]: ./example/problem-illustration.pdf
-[image2]: ./example/problem-illustration.pdf
+[image2]: ./example/problem-illustration.jpg
+[image2]: ./example/problem-illustration.jpg
 
 
 # Project Title
