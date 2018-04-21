@@ -18,7 +18,8 @@ The goals / steps of this project are the following:
 [image2]: ./example/problem-illustration.jpg
 [image3]: ./example/problem-illustration2.jpg
 [image4]: ./example/GEI_generation.png
-[image5]: ./example/incom_GEI_generation.png
+[image5]: ./example/incom_GEI_generation.jpg
+[image6]: ./example/incom_GEI_generation.jpg
 
 # Project Title
 
