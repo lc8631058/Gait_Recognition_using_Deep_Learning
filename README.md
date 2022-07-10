@@ -12,7 +12,9 @@
 [image7]: ./example/End2End_ITCNet.png
 [image8]: ./example/workflow.png
 
-# Paper: 2018 IEEE International Conference on Image Processing (ICIP) „GAIT RECOGNITION FROM INCOMPLETE GAIT CYCLE“
+# Article: "Person identification from partial gait cycle using fully convolutional neural networks, Neurocomputing", vol. 338, pp. 116–125, 2019, issn: 0925-2312.
+25th IEEE International Conference on Image Processing (ICIP) „GAIT RECOGNITION FROM INCOMPLETE GAIT CYCLE“, 2019, pp. 768–772.
+
 ### This repository includes part of the codes from my above paper, as the demand of my spuervisor, I will clear up the codes after the conference.
 
 ![alt text][image1]
