@@ -60,7 +60,7 @@ Here is the total workflow of my master thesis:
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. To get start with a simple ITCNet introduced in our article, please check ITC - 1f-3f Auto-encoder.ipynb
 
 ### Prerequisites
 
