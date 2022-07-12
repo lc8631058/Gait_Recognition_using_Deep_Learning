@@ -12,7 +12,7 @@
 [image7]: ./example/End2End_ITCNet.png
 [image8]: ./example/workflow.png
 
-# Article: "Person identification from partial gait cycle using fully convolutional neural networks", Neurocomputing,2019 and "GAIT RECOGNITION FROM INCOMPLETE GAIT CYCLE“, 25th IEEE International Conference on Image Processing (ICIP), 2019.
+## Article: "Person identification from partial gait cycle using fully convolutional neural networks", Neurocomputing,2019 and "GAIT RECOGNITION FROM INCOMPLETE GAIT CYCLE“, 25th IEEE International Conference on Image Processing (ICIP), 2019.
 
 ### This repository includes part of the codes from my above paper.
 
@@ -60,7 +60,7 @@ Here is the total workflow of my master thesis:
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. To get start with a simple ITCNet introduced in our article, please check ITC - 1f-3f Auto-encoder.ipynb
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. To get start with a ITCNet introduced in our article, please check the folder OULP_ipynb, the specific name of each file indicates the corresponding network structure described in our article.
 
 ### Prerequisites
 
