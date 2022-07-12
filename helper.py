@@ -86,7 +86,7 @@ def generate_subject_list(subjects, gallery_path, subject_iteration):
 	
 def generate_subject_normalized_list(subjects, gallery_path, subject_iteration):
     """
-    生成一个list, 包含所有subjects的images 
+    生成一个list, 包含所有subjects的images  
     """
     subject_list = []
     for subject in subjects:
