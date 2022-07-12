@@ -14,7 +14,7 @@
 
 # Article: "Person identification from partial gait cycle using fully convolutional neural networks", Neurocomputing,2019 and "GAIT RECOGNITION FROM INCOMPLETE GAIT CYCLE“, 25th IEEE International Conference on Image Processing (ICIP), 2019.
 
-### This repository includes part of the codes from my above paper, as the demand of my spuervisor, I will clear up the codes after the conference.
+### This repository includes part of the codes from my above paper.
 
 ![alt text][image1]
 
